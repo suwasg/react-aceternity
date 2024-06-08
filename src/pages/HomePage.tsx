@@ -12,6 +12,7 @@ import { AnimatedTooltipPreview } from '../components/Persons'
 import { FollowingPointerDemo } from '../components/Team'
 import { AnimatedPinDemo } from '../components/ThreeDPinComp'
 import { ParallaxScrollDemo } from '../components/ParallaxScrollComp'
+import { LayoutGridDemo } from '../components/LayoutGridComp'
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
     <AnimatedPinDemo/>
     <Testimonials/>
     <ParallaxScrollDemo/>
+    <LayoutGridDemo/>
         
     </>
   )
