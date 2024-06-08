@@ -10,6 +10,7 @@ import { ThreeDCardComp } from '../components/ThreeDCardComp'
 import { TabsDemo } from '../components/TabComp'
 import { AnimatedTooltipPreview } from '../components/Persons'
 import { FollowingPointerDemo } from '../components/Team'
+import { AnimatedPinDemo } from '../components/ThreeDPinComp'
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
     <TabsDemo/>
     <FollowingPointerDemo/>
     <AnimatedTooltipPreview/>
+    <AnimatedPinDemo/>
     <Testimonials/>
 
         
