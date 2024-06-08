@@ -11,6 +11,7 @@ import { TabsDemo } from '../components/TabComp'
 import { AnimatedTooltipPreview } from '../components/Persons'
 import { FollowingPointerDemo } from '../components/Team'
 import { AnimatedPinDemo } from '../components/ThreeDPinComp'
+import { ParallaxScrollDemo } from '../components/ParallaxScrollComp'
 
 const HomePage = () => {
   return (
@@ -27,7 +28,7 @@ const HomePage = () => {
     <AnimatedTooltipPreview/>
     <AnimatedPinDemo/>
     <Testimonials/>
-
+    <ParallaxScrollDemo/>
         
     </>
   )
